@@ -19,6 +19,8 @@ public class _01KnapSack {
         dp[i][space] =  Math.max(p1 , p2) ;
         return dp[i][space] ;
     } 
+   
+   
     public static void main(String args[]){
         int[] cost = {15, 14 , 10 , 45 ,30};
         int[] weight = {2 , 5 , 1 , 3 , 4};
